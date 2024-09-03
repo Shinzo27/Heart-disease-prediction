@@ -1,9 +1,13 @@
-import Image from "next/image";
-import { Button } from '@/components/ui/button'; 
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import StartAssessment from "@/components/StartAssessment";
+
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Button>Hello</Button>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <StartAssessment />
+    </>
   );
 }
